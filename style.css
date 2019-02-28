@@ -2,7 +2,7 @@ body{
     background-color:black;
 }
 
-#content{
+.centered{
     color:#33FF00;
     font-family:Courier;
     font-size:60px;
@@ -10,4 +10,12 @@ body{
     width:100vw;
     text-align-last: center;
 
+}
+
+#contact{
+    margin-top:0vh;
+}
+
+#mail-icon{
+    color:#33FF00;
 }
