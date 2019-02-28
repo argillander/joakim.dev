@@ -1,0 +1,13 @@
+body{
+    background-color:black;
+}
+
+#content{
+    color:white;
+    font-family:Courier;
+    font-size:60px;
+    margin-top:30vh;
+    width:100vw;
+    text-align-last: center;
+
+}
