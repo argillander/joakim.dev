@@ -1,21 +1,48 @@
-body{
-    background-color:black;
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none !important;
 }
 
-.centered{
-    color:#33FF00;
-    font-family:Courier;
-    font-size:60px;
-    margin-top:30vh;
-    width:100vw;
-    text-align-last: center;
-
+#wrap {
+    background: #e7e7e7;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    width: 80%;
 }
 
-#contact{
-    margin-top:0vh;
+.container{
+
+
+}/* Footer links */
+.container {
+    width: 100%;
+    text-align:center;
+    position:relative;
+    top:40%;
+}
+.social {
+    padding: 20px;
+    margin: 0 auto;
+    display: inline-block;
+}
+.social img, .social h3 {
+    width: 60%;
+    margin-bottom:1.5em;
+    line-height: 1em;
+    margin-right: 15px;
 }
 
-#mail-icon{
-    color:#33FF00;
+.social:hover img:hover{
+    margin-bottom:10%;
+    transition-duration: 500ms;
+}
+
+#se{
+    margin-right:1vw;
+}
+
+#dev{
+    margin-left:1vw;
 }
